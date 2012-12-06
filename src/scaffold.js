@@ -5,7 +5,7 @@ var commandFactory = function( _, anvil ) {
     anvil.command( {
         name: "anvil.scaffold",
         commander: {
-            "gen [name], generate [name], scaffold [name]": {
+            "gen [name], generate [name], new [name]": {
                 action: "generate",
                 description: "generate scaffold"
             },
