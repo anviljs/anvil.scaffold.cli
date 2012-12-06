@@ -1,0 +1,27 @@
+{
+  "author": "Alex Robson <alex@sharplearningcurve.com> (http://sharplearningcurve.com)",
+  "contributors": [
+    "Eli Perelman <eli@eliperelman.com> (http://eliperelman.com)",
+    "Doug Neiner (http://code.dougneiner.com)"
+  ],
+  "name": "anvil.scaffold.cli",
+  "description": "An anvil core plugin that exposes scaffolds to the command line",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anviljs/anvil.scaffold.cli.git"
+  },
+  "engines": {
+    "node": "~0.8.3"
+  },
+  "main": "./lib/scaffold.js",
+  "dependencies": {
+    "prompt": "~0.2"
+  },
+  "devDependencies": { 
+    "anvil.js": ">=0.8.5",
+    "should": "~1.1"
+  },
+  "optionalDependencies": {},
+  "keywords": [ "anvil", "core", "scaffold" ]
+}
