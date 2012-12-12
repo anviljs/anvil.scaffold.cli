@@ -1,6 +1,6 @@
-## Anvil Scaffold Plugin
+## Anvil Scaffold Command Line Interface
 
-This plugin is a core component of anvil and is required in order to interact with scaffolds from the command line.
+This extension is a core component of anvil and is required in order to interact with scaffolds from the command line.
 
 ## Installation
 

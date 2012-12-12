@@ -5,8 +5,8 @@
     "Doug Neiner (http://code.dougneiner.com)"
   ],
   "name": "anvil.scaffold.cli",
-  "description": "An anvil core plugin that exposes scaffolds to the command line",
-  "version": "0.1.0",
+  "description": "An anvil core extension that exposes scaffolds to the command line",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/anviljs/anvil.scaffold.cli.git"
@@ -19,7 +19,7 @@
     "prompt": "~0.2"
   },
   "devDependencies": { 
-    "anvil.js": ">=0.8.5",
+    "anvil.js": ">=0.9.0",
     "should": "~1.1"
   },
   "optionalDependencies": {},
