@@ -1,6 +1,6 @@
-var prompt = require( "prompt" );
+var prompt;
 
-var commandFactory = function( _, anvil ) {
+module.exports = function( _, anvil ) {
 
     anvil.command( {
         name: "anvil.scaffold",
@@ -15,6 +15,9 @@ var commandFactory = function( _, anvil ) {
             }
         },
         generate: function( scaffoldName, options, done ) {
+            if( !prompt ) {
+                prompt = require( "prompt" );
+            }
             var scaffold = anvil.extensions.scaffolds[ scaffoldName ];
             if( scaffold ) {
                 if( scaffold.prompt ) {
@@ -49,5 +52,3 @@ var commandFactory = function( _, anvil ) {
         }
     } );
 };
-
-module.exports = commandFactory;
